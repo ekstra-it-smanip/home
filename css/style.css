@@ -2,10 +2,10 @@
 
 :root{
    --green:#00E77F;
-   --white:#fff;
-   --light-white:#aaa;
-   --black:#3d3d3d;
-   --light-bg:#4b4b4b;
+   --black:#fff;
+   --white:#3d3d3d;
+   --light-white:#4b4b4b;
+   --light-bg:#f4f4f4;
 }
 
 *{
@@ -19,8 +19,8 @@
 }
 
 *::selection{
-   background-color: var(--white);
-   color:var(--black);
+   background-color: var(--black);
+   color:var(--white);
 }
 
 html{
@@ -66,8 +66,8 @@ section{
 }
 
 .btn:hover{
-   background-color: var(--white);
-   color:var(--black);
+   background-color: var(--black);
+   color:var(--white);
 }
 
 .heading{
@@ -416,7 +416,6 @@ section{
 .footer{
    background-color: var(--light-bg);
    text-align: center;
-   /* padding-bottom: 7rem; */
 }
 
 .footer .share a{
@@ -427,7 +426,7 @@ section{
    border-radius: 50%;
    font-size: 2rem;
    color:var(--white);
-   background-color: var(--black);;
+   background-color: var(--black);
 }
 
 .footer .share a:hover{
@@ -446,20 +445,6 @@ section{
 .footer .credit span{
    color:var(--green);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queries  */
